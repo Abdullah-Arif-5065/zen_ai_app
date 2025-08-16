@@ -148,7 +148,13 @@ if not detected_emotion:
 
 
 # Use manual if webcam is not running
-emotion = detected_emotion if detected_emotion else manual_emotion
+if detected_emotion and detected_emotion.lower() != "neutral":
+    emotion = detected_emotion
+elif manual_emotion and manual_emotion.lower() != "neutral":
+    emotion = manual_emotion
+else:
+    emotion = "Neutral"
+
 
 
 valid_emotions = ["Happy", "Sad", "Angry", "Surprise", "Fear", "Disgust", "Neutral"]

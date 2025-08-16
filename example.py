@@ -37,7 +37,7 @@ st.markdown("""
 body {
     font-family: 'Noto Serif JP', 'Yu Mincho', serif;
     background-color: #fdfaf6;
-    color: #2c2c2c;
+    color: #00008B;  /* Changed from #2c2c2c to dark blue */
 }
 [data-testid="stAppViewContainer"] {
     background-image: url("https://img.freepik.com/premium-photo/zen-bamboo-fountain-with-water-trickling-bamboo-soothing-beauty-frame-photo-scene-social-post_655090-945879.jpg");
@@ -69,7 +69,7 @@ body {
 .breathe-text {
   margin-top: 10px;
   font-size: 1.2em;
-  color: #444;
+  color: #00008B;  /* Also change breathe text */
   font-family: 'Yu Mincho', serif;
 }
 @keyframes breathe {
