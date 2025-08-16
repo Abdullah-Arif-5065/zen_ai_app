@@ -32,7 +32,7 @@ Here’s a **collage screenshot** showing all major components of Zen-AI in one 
 
 ---
 
-## 🚀 Features  
+## ⚙️ Features  
 ✅ Real-time emotion detection via webcam and voice 🎥🎙️  
 ✅ Personalized productivity suggestions ✨  
 ✅ Mood tracking and analytics 📊  
@@ -41,7 +41,7 @@ Here’s a **collage screenshot** showing all major components of Zen-AI in one 
 
 ---
 
-## 🛠️ Tech Stack  
+## 🧐 Tech Stack  
 - **Languages & Frameworks:** 🐍 Python, Streamlit  
 - **AI & ML:** 🤖 TensorFlow/Keras, OpenCV, Librosa  
 - **Data & Visualization:** 📊 Pandas, Matplotlib  
