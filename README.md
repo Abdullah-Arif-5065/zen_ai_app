@@ -58,8 +58,9 @@ cd zen_ai_app
 pip install -r requirements.txt
 streamlit run app.py
 
-
-📂 Project Structure
+---
+```
+## 📂 Project Structure
 
 zen_ai_app/
 │
@@ -80,6 +81,9 @@ zen_ai_app/
 ├─ docs/                      # Diagrams & documentation
 │   └─ zen_ai_architecture.png
 
-🤝 Contributing
+```
+---
+```
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
